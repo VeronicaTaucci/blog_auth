@@ -62,7 +62,7 @@ user should be able to
 - register for a new account 
 - registered users should be able to see all blogs and blog details 
 - unregistered user directed to login page (can't see list of blogs)
-- on admin page, blog owners are able to see this page. They should be able  to submit and new blog, edit an existing blog or delete a blog
+- on admin page, blog owners are able to see this page. They should be able  to submit a new blog, edit an existing blog or delete a blog
 
 
 
