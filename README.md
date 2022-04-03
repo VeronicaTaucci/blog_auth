@@ -1,13 +1,20 @@
 # Blog assignment
 
 - Create blog database with sequelize
-- Tables
-    - roles
-        - id, roleNme
-    - users
-        - id, username, email, password, roleName
-    - blog
-        - id, title, blogBody, imageURL
+
+## Install
+- git clone https://github.com/veros-labs/lab-sequelize-auth-blog.git 
+- navigate into the sequelize-auth-blog repository
+- run npm install
+
+## Tables
+- roles
+    - id, roleName
+- users
+    - id, username, email, password, roleName
+- blog
+    - id, title, blogBody, imageURL
+- 
 
 
 ### Requirements
