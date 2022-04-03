@@ -21,7 +21,7 @@ Ability to create a new post (title, body, date_created, date_updated, is_publis
 
 ## Tables
 
-## users schema
+### users schema
 > **id** - SERIAL PRIMARY KEY
 > 
 > **firstName** - varchar(20) 
@@ -41,7 +41,9 @@ Ability to create a new post (title, body, date_created, date_updated, is_publis
 > 
 > **title** - varchar(200) 
 > 
-> **body** - Text 
+> **body** - Text
+>
+> **userID** - integer (foreign key) 
 > 
 > **date_created** - timestamp default current_timestamp 
 > 
@@ -60,7 +62,7 @@ user should be able to
 - register for a new account 
 - registered users should be able to see all blogs and blog details 
 - unregistered user directed to login page (can't see list of blogs)
-- on admin page, only admin are able to see this page which allows you to submit and new blog
+- on admin page, blog owners are able to see this page. They should be able  to submit and new blog, edit an existing blog or delete a blog
 
 
 
