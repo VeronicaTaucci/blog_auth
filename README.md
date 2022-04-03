@@ -16,7 +16,8 @@ Ability to create a new post (title, body, date_created, date_updated, is_publis
 ## Install
 - git clone https://github.com/veros-labs/lab-sequelize-auth-blog.git 
 - navigate into the sequelize-auth-blog repository
-- run npm install
+- run `npm install` 
+- run `nodemon app.js` to see your starter template
 
 ## Tables
 
