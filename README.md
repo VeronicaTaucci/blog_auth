@@ -21,34 +21,33 @@ Ability to create a new post (title, body, date_created, date_updated, is_publis
 
 ## Tables
 
-### users Schema
-    - id, username, email, password, roleName
-**id** - SERIAL PRIMARY KEY
+## users schema
+> **id** - SERIAL PRIMARY KEY
+> 
+> **firstName** - varchar(20) 
+> 
+> **lastName** - varchar(20) 
+> 
+> **email** - varchar(50) 
+> 
+> **date_created** - timestamp default current_timestamp 
+> 
+> **date_updated** - timestamp default current_timestamp 
+> 
+> **is_published** - boolean default False 
 
-**firstName** - varchar(20) 
-
-**lastName** - varchar(20) 
-
-**email** - varchar(50) 
-
-**date_created** - timestamp default current_timestamp 
-
-**date_updated** - timestamp default current_timestamp 
-
-**is_published** - boolean default False 
-
-### blogs Schema
-**id** - SERIAL PRIMARY KEY
-
-**title** - varchar(200) 
-
-**body** - Text 
-
-**date_created** - timestamp default current_timestamp 
-
-**date_updated** - timestamp default current_timestamp 
-
-**is_published** - boolean default False 
+### blogs schema
+> **id** - SERIAL PRIMARY KEY
+> 
+> **title** - varchar(200) 
+> 
+> **body** - Text 
+> 
+> **date_created** - timestamp default current_timestamp 
+> 
+> **date_updated** - timestamp default current_timestamp 
+> 
+> **is_published** - boolean default False 
 
 
 ### Requirements
